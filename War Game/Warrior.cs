@@ -46,12 +46,6 @@ namespace War_Game
             return MakeMove("block", maxBlock);
         }
 
-        public int MakeMove(string action , int maxMove)
-        {
-            int move = GetRandomMove(maxMove);
-            PrintAction(action, move);
-            return move;
-        }
         public void MakeDamage(int damage)
         {
             if (damage < 0) 
@@ -75,6 +69,13 @@ namespace War_Game
         public void AnnounceWinner()
         {
             Console.WriteLine($"Warrior {warriorName} is the Winner!!");
+        }
+
+        private int MakeMove(string action, int maxMove)
+        {
+            int move = GetRandomMove(maxMove);
+            PrintAction(action, move);
+            return move;
         }
 
         private int GetRandomMove(int maxMove)
