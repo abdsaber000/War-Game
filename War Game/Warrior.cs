@@ -73,15 +73,15 @@ namespace War_Game
 
         private int MakeMove(string action, int maxMove)
         {
-            int move = GetRandomMove(maxMove);
+            int move = GeneratePositiveRandNum(maxMove);
             PrintAction(action, move);
             return move;
         }
 
-        private int GetRandomMove(int maxMove)
+        private int GeneratePositiveRandNum(int maxNumber)
         {
             Random random = new Random();
-            int randomMove = random.Next( 1, maxMove);
+            int randomMove = random.Next( 1, maxNumber);
             return randomMove;
         }
         private void PrintAction(string action , int value)
