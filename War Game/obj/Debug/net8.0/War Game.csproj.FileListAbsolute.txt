@@ -1,0 +1,29 @@
+C:\Users\Dell\source\repos\War Game\War Game\bin\Debug\net8.0\War Game.exe
+C:\Users\Dell\source\repos\War Game\War Game\bin\Debug\net8.0\War Game.deps.json
+C:\Users\Dell\source\repos\War Game\War Game\bin\Debug\net8.0\War Game.runtimeconfig.json
+C:\Users\Dell\source\repos\War Game\War Game\bin\Debug\net8.0\War Game.dll
+C:\Users\Dell\source\repos\War Game\War Game\bin\Debug\net8.0\War Game.pdb
+C:\Users\Dell\source\repos\War Game\War Game\obj\Debug\net8.0\War Game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\source\repos\War Game\War Game\obj\Debug\net8.0\War Game.AssemblyInfoInputs.cache
+C:\Users\Dell\source\repos\War Game\War Game\obj\Debug\net8.0\War Game.AssemblyInfo.cs
+C:\Users\Dell\source\repos\War Game\War Game\obj\Debug\net8.0\War Game.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\War Game\War Game\obj\Debug\net8.0\War Game.dll
+C:\Users\Dell\source\repos\War Game\War Game\obj\Debug\net8.0\refint\War Game.dll
+C:\Users\Dell\source\repos\War Game\War Game\obj\Debug\net8.0\War Game.pdb
+C:\Users\Dell\source\repos\War Game\War Game\obj\Debug\net8.0\War Game.genruntimeconfig.cache
+C:\Users\Dell\source\repos\War Game\War Game\obj\Debug\net8.0\ref\War Game.dll
+C:\Users\Dell\source\repos\War-Game\War Game\bin\Debug\net8.0\War Game.exe
+C:\Users\Dell\source\repos\War-Game\War Game\bin\Debug\net8.0\War Game.deps.json
+C:\Users\Dell\source\repos\War-Game\War Game\bin\Debug\net8.0\War Game.runtimeconfig.json
+C:\Users\Dell\source\repos\War-Game\War Game\bin\Debug\net8.0\War Game.dll
+C:\Users\Dell\source\repos\War-Game\War Game\bin\Debug\net8.0\War Game.pdb
+C:\Users\Dell\source\repos\War-Game\War Game\obj\Debug\net8.0\War Game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\source\repos\War-Game\War Game\obj\Debug\net8.0\War Game.AssemblyInfoInputs.cache
+C:\Users\Dell\source\repos\War-Game\War Game\obj\Debug\net8.0\War Game.AssemblyInfo.cs
+C:\Users\Dell\source\repos\War-Game\War Game\obj\Debug\net8.0\War Game.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\War-Game\War Game\obj\Debug\net8.0\War Game.sourcelink.json
+C:\Users\Dell\source\repos\War-Game\War Game\obj\Debug\net8.0\War Game.dll
+C:\Users\Dell\source\repos\War-Game\War Game\obj\Debug\net8.0\refint\War Game.dll
+C:\Users\Dell\source\repos\War-Game\War Game\obj\Debug\net8.0\War Game.pdb
+C:\Users\Dell\source\repos\War-Game\War Game\obj\Debug\net8.0\War Game.genruntimeconfig.cache
+C:\Users\Dell\source\repos\War-Game\War Game\obj\Debug\net8.0\ref\War Game.dll
