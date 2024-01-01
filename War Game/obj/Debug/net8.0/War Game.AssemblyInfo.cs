@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("War Game")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+89f2c1968cd0d71f8ca44378dd2e72822f8d9623")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+679b1a8943111b6acc48fee8ac43635501098cb4")]
 [assembly: System.Reflection.AssemblyProductAttribute("War Game")]
 [assembly: System.Reflection.AssemblyTitleAttribute("War Game")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

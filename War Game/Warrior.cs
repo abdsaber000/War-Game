@@ -19,6 +19,9 @@ namespace War_Game
         public Warrior()
         {
             warriorName = "No name";
+            health = 0;
+            maxAttack = 0;
+            maxBlock = 0; 
         }
         public Warrior(string warriorName , int health , int maxAttack, int maxBlock)
         {
@@ -35,21 +38,18 @@ namespace War_Game
 
         public int Attack()
         {
-            Random random = new Random();
-
-            int attack = random.Next(1, maxAttack);
-            PrintAttack(attack);
+            int attack = GetRandomMove(maxAttack);
+            PrintAction("attack", attack);
             return attack;
         }
 
         public int Block()
         {
-            Random random = new Random();
-
-            int block =  random.Next(1, maxBlock);
-            PrintBlock(block);
+            int block = GetRandomMove(maxBlock);
+            PrintAction("block", block);
             return block;
         }
+
 
         public void MakeDamage(int damage)
         {
@@ -75,19 +75,17 @@ namespace War_Game
         {
             Console.WriteLine($"Warrior {warriorName} is the Winner!!");
         }
-        private void PrintAttack(int attack)
+
+        private int GetRandomMove(int maxMove)
         {
-            Console.WriteLine($"Warrior {warriorName} attacked " +
-                $"with value {attack}");
-
+            Random random = new Random();
+            int randomMove = random.Next( 1, maxMove);
+            return randomMove;
         }
-
-        private void PrintBlock(int block)
+        private void PrintAction(string action , int value)
         {
-            Console.WriteLine($"Warrior {warriorName} blocked " +
-                $"with value {block}");
+            Console.WriteLine($"Warrior {warriorName} {action}ed " +
+                $"with value {value}");
         }
-
-        
     }
 }
