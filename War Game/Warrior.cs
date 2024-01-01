@@ -38,19 +38,20 @@ namespace War_Game
 
         public int Attack()
         {
-            int attack = GetRandomMove(maxAttack);
-            PrintAction("attack", attack);
-            return attack;
+            return MakeMove("attack", maxAttack);
         }
 
         public int Block()
         {
-            int block = GetRandomMove(maxBlock);
-            PrintAction("block", block);
-            return block;
+            return MakeMove("block", maxBlock);
         }
 
-
+        public int MakeMove(string action , int maxMove)
+        {
+            int move = GetRandomMove(maxMove);
+            PrintAction(action, move);
+            return move;
+        }
         public void MakeDamage(int damage)
         {
             if (damage < 0) 
